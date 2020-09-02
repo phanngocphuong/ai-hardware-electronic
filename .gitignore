@@ -1,0 +1,11 @@
+# Prerequisites
+
+*.kicad_pcb-bak
+*.sch-bak
+*.net
+
+*.lib
+*.dcm
+
+sym-lib-table
+fp-info-cache
