@@ -365,4 +365,18 @@ Text HLabel 5250 4200 0    50   Input ~ 0
 RS
 Text HLabel 5250 5000 0    50   Input ~ 0
 RESET
+Text HLabel 6550 4900 2    50   Input ~ 0
+uart1_tx
+Text HLabel 6550 5000 2    50   Input ~ 0
+uart1_rx
+Text HLabel 6550 4200 2    50   Input ~ 0
+uart2_tx
+Text HLabel 6550 4300 2    50   Input ~ 0
+uart2_rx
+Text HLabel 5250 4600 0    50   Input ~ 0
+i2c1_scl
+Text HLabel 5250 4700 0    50   Input ~ 0
+i2c1_sda
+Text HLabel 6550 4000 2    50   Input ~ 0
+adc_1
 $EndSCHEMATC
