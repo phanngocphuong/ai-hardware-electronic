@@ -415,10 +415,10 @@ Connection ~ 5675 3250
 Wire Wire Line
 	5675 3250 6075 3250
 $Comp
-L phuong-kicad-lib:Conn_01x02_power J8
+L phuong-kicad-lib:Conn_01x02_power J?
 U 1 1 5FA46EAB
 P 7935 1560
-F 0 "J8" H 8015 1602 50  0000 L CNN
+F 0 "J?" H 8015 1602 50  0000 L CNN
 F 1 "Conn_01x02_power" H 8015 1511 50  0000 L CNN
 F 2 "phuong_kicad_lib:Header-2pin-2.54-white" H 7935 1410 50  0001 C CNN
 F 3 "" H 7935 1410 50  0001 C CNN
@@ -434,10 +434,10 @@ GND
 Wire Wire Line
 	7735 1610 7660 1610
 $Comp
-L phuong-kicad-lib:Conn_01x02_power J9
+L phuong-kicad-lib:Conn_01x02_power J?
 U 1 1 5FA4FD74
 P 8305 4540
-F 0 "J9" H 8385 4582 50  0000 L CNN
+F 0 "J?" H 8385 4582 50  0000 L CNN
 F 1 "Conn_01x02_power" H 8385 4491 50  0000 L CNN
 F 2 "phuong_kicad_lib:Header-2pin-2.54-white" H 8305 4390 50  0001 C CNN
 F 3 "" H 8305 4390 50  0001 C CNN
@@ -453,10 +453,10 @@ Wire Wire Line
 Text GLabel 7680 4490 0    50   Input ~ 0
 3v3
 $Comp
-L phuong-kicad-lib:Conn_01x02_power J6
+L phuong-kicad-lib:Conn_01x02_power J?
 U 1 1 5FA52EB9
 P 3685 4705
-F 0 "J6" V 3685 4665 50  0000 L CNN
+F 0 "J?" V 3685 4665 50  0000 L CNN
 F 1 "5v lock" V 3780 4560 50  0000 L CNN
 F 2 "phuong_kicad_lib:Header-2pin-2.54-white" H 3685 4555 50  0001 C CNN
 F 3 "" H 3685 4555 50  0001 C CNN
@@ -469,10 +469,10 @@ Wire Wire Line
 	3735 4500 4075 4500
 Connection ~ 4075 4500
 $Comp
-L phuong-kicad-lib:Conn_01x02_power J7
+L phuong-kicad-lib:Conn_01x02_power J?
 U 1 1 5FA59004
 P 6515 4735
-F 0 "J7" V 6525 4695 50  0000 L CNN
+F 0 "J?" V 6525 4695 50  0000 L CNN
 F 1 "3v3 lock" V 6640 4555 50  0000 L CNN
 F 2 "phuong_kicad_lib:Header-2pin-2.54-white" H 6515 4585 50  0001 C CNN
 F 3 "" H 6515 4585 50  0001 C CNN
@@ -493,8 +493,8 @@ L phuong-kicad-lib:Conn_01x02_power J?
 U 1 1 5FA62889
 P 2595 1670
 AR Path="/5FA62889" Ref="J?"  Part="1" 
-AR Path="/5F104F92/5FA62889" Ref="J4"  Part="1" 
-F 0 "J4" H 2675 1712 50  0000 L CNN
+AR Path="/5F104F92/5FA62889" Ref="J?"  Part="1" 
+F 0 "J?" H 2675 1712 50  0000 L CNN
 F 1 "Conn_01x02_power" H 2220 1495 50  0000 L CNN
 F 2 "phuong_kicad_lib:Header-2pin-2.54-white" H 2595 1520 50  0001 C CNN
 F 3 "" H 2595 1520 50  0001 C CNN

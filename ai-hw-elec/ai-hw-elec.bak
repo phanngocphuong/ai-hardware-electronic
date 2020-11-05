@@ -189,10 +189,10 @@ Wire Wire Line
 Wire Wire Line
 	1725 4160 1920 4160
 $Comp
-L phuong-kicad-lib:Conn_01x02_power J2
+L phuong-kicad-lib:Conn_01x02_power J?
 U 1 1 5FA65D28
 P 3095 4195
-F 0 "J2" H 3175 4237 50  0000 L CNN
+F 0 "J?" H 3175 4237 50  0000 L CNN
 F 1 "RS485_uart1" H 3175 4146 50  0000 L CNN
 F 2 "phuong_kicad_lib:Header-2pin-2.54-white" H 3095 4045 50  0001 C CNN
 F 3 "" H 3095 4045 50  0001 C CNN
@@ -232,10 +232,10 @@ Wire Wire Line
 Wire Wire Line
 	1725 5085 1920 5085
 $Comp
-L phuong-kicad-lib:Conn_01x02_power J3
+L phuong-kicad-lib:Conn_01x02_power J?
 U 1 1 5FA6E414
 P 3095 5120
-F 0 "J3" H 3175 5162 50  0000 L CNN
+F 0 "J?" H 3175 5162 50  0000 L CNN
 F 1 "RS485_uart2" H 3175 5071 50  0000 L CNN
 F 2 "phuong_kicad_lib:Header-2pin-2.54-white" H 3095 4970 50  0001 C CNN
 F 3 "" H 3095 4970 50  0001 C CNN

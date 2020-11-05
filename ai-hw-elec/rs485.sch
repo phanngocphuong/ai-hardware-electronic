@@ -1,0 +1,330 @@
+EESchema Schematic File Version 4
+LIBS:ai-hw-elec-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ph_kicad_lib:MAX485_SMD U5
+U 1 1 5F2B3987
+P 5725 3400
+AR Path="/5F8FE877/5F2B3987" Ref="U5"  Part="1" 
+AR Path="/5FA6E407/5F2B3987" Ref="U6"  Part="1" 
+F 0 "U5" H 5575 2975 50  0000 C CNN
+F 1 "MAX485_SMD" H 6050 2975 50  0000 C CNN
+F 2 "ph_kicad_lib:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 5725 3850 50  0001 C CIN
+F 3 "" H 5725 3400 50  0001 C CNN
+F 4 "IC TXRX RS485/RS422 8-SOIC" H 5725 4050 50  0001 C CNN "Desc"
+F 5 "https://thegioiic.com/products/max485csa-t" H 5725 3950 50  0001 C CNN "Link"
+	1    5725 3400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ph_kicad_lib:R0805 R11
+U 1 1 5F2B4376
+P 4725 3400
+AR Path="/5F8FE877/5F2B4376" Ref="R11"  Part="1" 
+AR Path="/5FA6E407/5F2B4376" Ref="R19"  Part="1" 
+F 0 "R11" H 4795 3446 50  0000 L CNN
+F 1 "2.2k" V 4725 3325 50  0000 L CNN
+F 2 "ph_kicad_lib:R_0805_HandSoldering" V 4655 3400 50  0001 C CNN
+F 3 "" H 4725 3400 50  0001 C CNN
+F 4 "Resistor SMD 0805" H 4725 3400 50  0001 C CNN "Desc"
+F 5 "http://www.dientuachau.com/res-1-0805" H 4725 3400 50  0001 C CNN "Link"
+	1    4725 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L ph_kicad_lib:R0805 R10
+U 1 1 5F2B4C5C
+P 4725 2975
+AR Path="/5F8FE877/5F2B4C5C" Ref="R10"  Part="1" 
+AR Path="/5FA6E407/5F2B4C5C" Ref="R18"  Part="1" 
+F 0 "R10" H 4795 3021 50  0000 L CNN
+F 1 "10K" V 4725 2900 50  0000 L CNN
+F 2 "ph_kicad_lib:R_0805_HandSoldering" V 4655 2975 50  0001 C CNN
+F 3 "" H 4725 2975 50  0001 C CNN
+F 4 "Resistor SMD 0805" H 4725 2975 50  0001 C CNN "Desc"
+F 5 "http://www.dientuachau.com/res-1-0805" H 4725 2975 50  0001 C CNN "Link"
+	1    4725 2975
+	1    0    0    -1  
+$EndComp
+$Comp
+L ph_kicad_lib:R0805 R12
+U 1 1 5F2B4EEF
+P 4725 3825
+AR Path="/5F8FE877/5F2B4EEF" Ref="R12"  Part="1" 
+AR Path="/5FA6E407/5F2B4EEF" Ref="R20"  Part="1" 
+F 0 "R12" H 4795 3871 50  0000 L CNN
+F 1 "10K" V 4725 3750 50  0000 L CNN
+F 2 "ph_kicad_lib:R_0805_HandSoldering" V 4655 3825 50  0001 C CNN
+F 3 "" H 4725 3825 50  0001 C CNN
+F 4 "Resistor SMD 0805" H 4725 3825 50  0001 C CNN "Desc"
+F 5 "http://www.dientuachau.com/res-1-0805" H 4725 3825 50  0001 C CNN "Link"
+	1    4725 3825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4725 3675 4725 3600
+Wire Wire Line
+	4725 3250 4725 3200
+Wire Wire Line
+	4725 3200 4520 3200
+Connection ~ 4725 3200
+Wire Wire Line
+	4725 3200 4725 3125
+Text HLabel 3855 3200 0    50   Input ~ 0
+A
+Text HLabel 3865 3600 0    50   Input ~ 0
+B
+Wire Wire Line
+	3865 3600 4520 3600
+Connection ~ 4725 3600
+Wire Wire Line
+	4725 3600 4725 3550
+Wire Wire Line
+	4725 3200 5100 3200
+Wire Wire Line
+	5100 3200 5100 3300
+Wire Wire Line
+	5100 3300 5325 3300
+Wire Wire Line
+	4725 3600 5125 3600
+Wire Wire Line
+	5125 3600 5125 3500
+Wire Wire Line
+	5125 3500 5325 3500
+Text HLabel 5725 4125 3    50   Input ~ 0
+GND
+Wire Wire Line
+	5725 4125 5725 4050
+Text HLabel 5725 2500 1    50   Input ~ 0
+5v
+Wire Wire Line
+	5725 2500 5725 2750
+Wire Wire Line
+	4725 2825 4725 2750
+Connection ~ 5725 2750
+Wire Wire Line
+	5725 2750 5725 3000
+Wire Wire Line
+	4725 3975 4725 4050
+Wire Wire Line
+	4725 4050 5725 4050
+Connection ~ 5725 4050
+Wire Wire Line
+	5725 4050 5725 3800
+Connection ~ 4725 2750
+Wire Wire Line
+	4725 2750 5725 2750
+Wire Wire Line
+	4725 2300 4725 2375
+Text HLabel 4725 2300 1    50   Input ~ 0
+GND
+Wire Wire Line
+	4725 2675 4725 2750
+$Comp
+L ph_kicad_lib:C0805 C11
+U 1 1 5F2B8498
+P 4725 2525
+AR Path="/5F8FE877/5F2B8498" Ref="C11"  Part="1" 
+AR Path="/5FA6E407/5F2B8498" Ref="C12"  Part="1" 
+F 0 "C11" H 4840 2571 50  0000 L CNN
+F 1 "104" H 4840 2480 50  0000 L CNN
+F 2 "ph_kicad_lib:C_0805_HandSoldering" H 4763 2375 50  0001 C CNN
+F 3 "" H 4725 2525 50  0001 C CNN
+F 4 "Capacitor SMD Ceramic 0805" H 4725 2525 50  0001 C CNN "Desc"
+F 5 "http://www.dientuachau.com/ceramic-0805" H 4725 2525 50  0001 C CNN "Link"
+	1    4725 2525
+	1    0    0    -1  
+$EndComp
+$Comp
+L ph_kicad_lib:R0805 R13
+U 1 1 5F2C04F7
+P 6400 2850
+AR Path="/5F8FE877/5F2C04F7" Ref="R13"  Part="1" 
+AR Path="/5FA6E407/5F2C04F7" Ref="R21"  Part="1" 
+F 0 "R13" H 6470 2896 50  0000 L CNN
+F 1 "10k" V 6400 2775 50  0000 L CNN
+F 2 "ph_kicad_lib:R_0805_HandSoldering" V 6330 2850 50  0001 C CNN
+F 3 "" H 6400 2850 50  0001 C CNN
+F 4 "Resistor SMD 0805" H 6400 2850 50  0001 C CNN "Desc"
+F 5 "http://www.dientuachau.com/res-1-0805" H 6400 2850 50  0001 C CNN "Link"
+	1    6400 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L ph_kicad_lib:R0805 R14
+U 1 1 5F2C08AC
+P 6650 2850
+AR Path="/5F8FE877/5F2C08AC" Ref="R14"  Part="1" 
+AR Path="/5FA6E407/5F2C08AC" Ref="R22"  Part="1" 
+F 0 "R14" H 6720 2896 50  0000 L CNN
+F 1 "10k" V 6650 2775 50  0000 L CNN
+F 2 "ph_kicad_lib:R_0805_HandSoldering" V 6580 2850 50  0001 C CNN
+F 3 "" H 6650 2850 50  0001 C CNN
+F 4 "Resistor SMD 0805" H 6650 2850 50  0001 C CNN "Desc"
+F 5 "http://www.dientuachau.com/res-1-0805" H 6650 2850 50  0001 C CNN "Link"
+	1    6650 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 2700 6400 2600
+Wire Wire Line
+	6400 2600 6525 2600
+Wire Wire Line
+	6650 2600 6650 2700
+Text HLabel 6525 2500 1    50   Input ~ 0
+5v
+Wire Wire Line
+	6525 2500 6525 2600
+Connection ~ 6525 2600
+Wire Wire Line
+	6525 2600 6650 2600
+Wire Wire Line
+	6400 3000 6400 3200
+Wire Wire Line
+	6400 3200 6125 3200
+Wire Wire Line
+	6125 3300 6225 3300
+Wire Wire Line
+	6650 3300 6650 3000
+Wire Wire Line
+	6125 3500 6225 3500
+Wire Wire Line
+	6225 3500 6225 3300
+Connection ~ 6225 3300
+Wire Wire Line
+	6225 3300 6650 3300
+Wire Wire Line
+	6125 3600 6225 3600
+Wire Wire Line
+	6225 3600 6225 4050
+Wire Wire Line
+	6225 4050 5725 4050
+$Comp
+L ph_kicad_lib:C1815_SOT23 Q1
+U 1 1 5F2C3C1F
+P 6750 3675
+AR Path="/5F8FE877/5F2C3C1F" Ref="Q1"  Part="1" 
+AR Path="/5FA6E407/5F2C3C1F" Ref="Q2"  Part="1" 
+F 0 "Q1" H 6675 3825 50  0000 L CNN
+F 1 "C1815_SOT23" H 6275 3500 50  0000 L CNN
+F 2 "ph_kicad_lib:SOT-23" H 6950 3600 50  0001 L CIN
+F 3 "" H 6750 3675 50  0001 L CNN
+F 4 "50V Vce, 0.15A Ic, Low Noise Audio NPN Transistor, TO-92" H 6800 3875 50  0001 C CNN "Desc"
+F 5 "https://thegioiic.com/products/2sc1815-hf" H 6800 3975 50  0001 C CNN "Link"
+	1    6750 3675
+	-1   0    0    -1  
+$EndComp
+Connection ~ 6650 3300
+Wire Wire Line
+	6650 3475 6650 3300
+Wire Wire Line
+	6650 3875 6650 4050
+Wire Wire Line
+	6650 4050 6225 4050
+Connection ~ 6225 4050
+$Comp
+L ph_kicad_lib:R0805 R15
+U 1 1 5F2C8AB7
+P 6975 3200
+AR Path="/5F8FE877/5F2C8AB7" Ref="R15"  Part="1" 
+AR Path="/5FA6E407/5F2C8AB7" Ref="R23"  Part="1" 
+F 0 "R15" V 7075 3175 50  0000 L CNN
+F 1 "4k7" V 6975 3125 50  0000 L CNN
+F 2 "ph_kicad_lib:R_0805_HandSoldering" V 6905 3200 50  0001 C CNN
+F 3 "" H 6975 3200 50  0001 C CNN
+F 4 "Resistor SMD 0805" H 6975 3200 50  0001 C CNN "Desc"
+F 5 "http://www.dientuachau.com/res-1-0805" H 6975 3200 50  0001 C CNN "Link"
+	1    6975 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6825 3200 6400 3200
+Connection ~ 6400 3200
+$Comp
+L ph_kicad_lib:R0805 R16
+U 1 1 5F2CB7C0
+P 7200 3675
+AR Path="/5F8FE877/5F2CB7C0" Ref="R16"  Part="1" 
+AR Path="/5FA6E407/5F2CB7C0" Ref="R24"  Part="1" 
+F 0 "R16" V 7300 3650 50  0000 L CNN
+F 1 "2.2k" V 7200 3600 50  0000 L CNN
+F 2 "ph_kicad_lib:R_0805_HandSoldering" V 7130 3675 50  0001 C CNN
+F 3 "" H 7200 3675 50  0001 C CNN
+F 4 "Resistor SMD 0805" H 7200 3675 50  0001 C CNN "Desc"
+F 5 "http://www.dientuachau.com/res-1-0805" H 7200 3675 50  0001 C CNN "Link"
+	1    7200 3675
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7050 3675 6950 3675
+Wire Wire Line
+	7350 3675 7650 3675
+$Comp
+L ph_kicad_lib:R0805 R17
+U 1 1 5F2CD2FB
+P 7225 2950
+AR Path="/5F8FE877/5F2CD2FB" Ref="R17"  Part="1" 
+AR Path="/5FA6E407/5F2CD2FB" Ref="R25"  Part="1" 
+F 0 "R17" H 7075 2900 50  0000 L CNN
+F 1 "10k" V 7225 2875 50  0000 L CNN
+F 2 "ph_kicad_lib:R_0805_HandSoldering" V 7155 2950 50  0001 C CNN
+F 3 "" H 7225 2950 50  0001 C CNN
+F 4 "Resistor SMD 0805" H 7225 2950 50  0001 C CNN "Desc"
+F 5 "http://www.dientuachau.com/res-1-0805" H 7225 2950 50  0001 C CNN "Link"
+	1    7225 2950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7225 3100 7225 3200
+Wire Wire Line
+	7225 3200 7125 3200
+Text HLabel 7225 2575 1    50   Input ~ 0
+GND
+Wire Wire Line
+	7225 2575 7225 2800
+Wire Wire Line
+	7225 3200 7650 3200
+Connection ~ 7225 3200
+Text HLabel 7650 3200 2    50   Input ~ 0
+RS485-RX
+Text HLabel 7650 3675 2    50   Input ~ 0
+RS485-TX
+$Comp
+L ph_kicad_lib:D_TVS D2
+U 1 1 5FA3C0D2
+P 4520 3395
+AR Path="/5F8FE877/5FA3C0D2" Ref="D2"  Part="1" 
+AR Path="/5FA6E407/5FA3C0D2" Ref="D3"  Part="1" 
+F 0 "D2" V 4440 3250 50  0000 L CNN
+F 1 "D_TVS" V 4575 3115 50  0000 L CNN
+F 2 "ph_kicad_lib:DO-214AC(SMA)" H 4520 3395 50  0001 C CNN
+F 3 "" H 4520 3395 50  0001 C CNN
+F 4 "TVS DIODE 36VWM 58.1VC SMA" H 4570 3495 50  0001 C CNN "Desc"
+F 5 "https://thegioiic.com/products/smaj36a" H 4520 3595 50  0001 C CNN "Link"
+	1    4520 3395
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4520 3245 4520 3200
+Connection ~ 4520 3200
+Wire Wire Line
+	4520 3200 3855 3200
+Wire Wire Line
+	4520 3545 4520 3600
+Connection ~ 4520 3600
+Wire Wire Line
+	4520 3600 4725 3600
+$EndSCHEMATC
